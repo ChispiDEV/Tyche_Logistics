@@ -26,6 +26,7 @@ Tyche_Logistics_Invoice_System/
 │   ├── 📜 generate_invoice.gs          → Script to generate PDF invoice
 │   ├── 📜 send_invoice_email.gs        → Script to send invoice via email
 │   ├── 📜 holiday_calendar.gs          → Holiday calendar logic
+│   ├── 📜 find_invoice.gs              → Script to locate PDF invoice
 ├── 📁 assets/
 │   └── .gitkeep                        → Placeholder file
 ├── 📜 LICENSE                          → MIT License
@@ -100,7 +101,7 @@ La automatización está construida en **Google Sheets** mediante **Google Apps 
 
 --
 ## 🎯 Objetivos
--🧾 Automatizar la creación de facturas detalladas.
+- 🧾 Automatizar la creación de facturas detalladas.
 - ✉️ Enviar facturas en PDF por correo electrónico.
 - 📅 Calcular fechas de entrega evitando fines de semana y festivos.
 - 🔄 Generar automáticamente el contenido a partir de pedidos.
@@ -110,9 +111,10 @@ La automatización está construida en **Google Sheets** mediante **Google Apps 
 ```
 Tyche_Logistics_Invoice_System/
 ├── 📁 scripts/
-│   ├── 📜 generate_invoice.gs          → Script to generate PDF invoice
-│   ├── 📜 send_invoice_email.gs        → Script to send invoice via email
-│   ├── 📜 holiday_calendar.gs          → Holiday calendar logic
+│   ├── 📜 generate_invoice.gs          → Script para generar de forma automática la factura en PDF
+│   ├── 📜 send_invoice_email.gs        → Script para enviar la factura PDF por correo electrónico
+│   ├── 📜 holiday_calendar.gs          → Añadir los festivos de España a la lógica de los archivos
+│   ├── 📜 find_invoice.gs              → Script para localizar la factura en PDF
 ├── 📁 assets/
 │   └── .gitkeep                        → Placeholder file
 ├── 📜 LICENSE                          → MIT License
