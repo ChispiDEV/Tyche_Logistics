@@ -2,7 +2,7 @@
 📌 Google Apps Script | Google Sheets Automation | PDF Generation | Email Automation
 
 ---
-## 🌍 English Version
+# 🌍 English Version
 
 This repository contains the code and automation setup for **Tyche Logistics**, a fictional company responsible for managing the transportation of medical resources for hospitals in the Community of Madrid.
 
@@ -94,7 +94,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 Contact me at: [cristinafg.it@gmail.com] or create an issue in the repository.
 
 ---
-# 🇪🇸 Versión en Español
+# 🌍 Versión en Español
 Este repositorio contiene el sistema automatizado de **Tyche Logistics**, una empresa ficticia que gestiona el transporte de recursos médicos para hospitales en la Comunidad de Madrid.
 
 La automatización está construida en **Google Sheets** mediante **Google Apps Script**.
