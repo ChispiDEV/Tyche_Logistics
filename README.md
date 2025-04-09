@@ -114,7 +114,7 @@ Este repositorio contiene el sistema automatizado de **Tyche Logistics**, una em
 
 La automatización está construida en **Google Sheets** mediante **Google Apps Script**.
 
---
+---
 ## 🎯 Objetivos
 - 🧾 Automatizar la creación de facturas detalladas.
 - ✉️ Enviar facturas en PDF por correo electrónico.
@@ -198,7 +198,7 @@ Cuando se rellena el pedido de un nuevo cliente en la hoja **Pedidos**:
 Incluye festivos nacionales y regionales de la **Comunidad de Madrid** (festivos regionales y nacionales de España 2025).
 
 ---
-📜 Licencia
+## 📜 Licencia
 Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
 
 ---
