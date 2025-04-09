@@ -32,7 +32,7 @@ Tyche_Logistics_Invoice_System/
 │   └── 📜 transport_plan.pdf           → Transport plan document
 ├── 📁 projects/                        → Additional projects or related analysis
 │   ├── 📁 cost_analysis/
-│   └── 📈 costs_report.xlsx            → Cost analysis report. 
+│   └── 📈 costs_report.xlsx            → Cost analysis report  
 │   │   ├── 📁 route_optimization/
 │   │   ├── 📜 notebook.ipynb           → Route analysis
 │   │   ├── 📈 data.csv
