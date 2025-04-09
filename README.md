@@ -22,13 +22,28 @@ The system is built on **Google Sheets** with **Google Apps Script**, automating
 
 ```
 Tyche_Logistics_Invoice_System/
+├── 📁 assets/
+│   ├── 📜 tyche_invoices_demo.gs       → Example invoice
+│   ├── 🖼️ logo_tyche.png               → Tyche logo design
+│   └── 🖼️ logo_tyche_front_page.png    → Tyche logo design for document covers
+├── 📁 data/                            → Data used in the system
+│   └── 📈 stock-invoices.xlsx          → Inventory management file
+├── 📁 docs/                            → PDF or markdown documents with system explanations
+│   └── 📜 transport_plan.pdf           → Transport plan document
+├── 📁 projects/                        → Additional projects or related analysis
+│   ├── 📁 cost_analysis/
+│   └── 📈 costs_report.xlsx            → Cost analysis report. 
+│   │   ├── 📁 route_optimization/
+│   │   ├── 📜 notebook.ipynb           → Route analysis
+│   │   ├── 📈 data.csv
+│   │   └── 🖼️ output_map.png
+│   └── 📁 satisfaction_survey/
+Translated with DeepL.com (free version)
 ├── 📁 scripts/
 │   ├── 📜 generate_invoice.gs          → Script to generate PDF invoice
 │   ├── 📜 send_invoice_email.gs        → Script to send invoice via email
 │   ├── 📜 holiday_calendar.gs          → Holiday calendar logic
-│   ├── 📜 find_invoice.gs              → Script to locate PDF invoice
-├── 📁 assets/
-│   └── .gitkeep                        → Placeholder file
+│   └── 📜 find_invoice.gs              → Script to locate PDF invoice
 ├── 📜 LICENSE                          → MIT License
 ├── 📜 README.md                        → Project documentation
 ```
@@ -110,15 +125,29 @@ La automatización está construida en **Google Sheets** mediante **Google Apps 
 ## 📁 Estructura del Repositorio:
 ```
 Tyche_Logistics_Invoice_System/
-├── 📁 scripts/
+├── 📁 assets/
+│   ├── 📜 tyche_invoices_demo.gs       → Ejemplo de factura
+│   ├── 🖼️ logo_tyche.png               → Diseño del logo de Tyche
+│   └── 🖼️ logo_tyche_front_page.png    → Diseño del logo de Tyche para las portadas de documentos
+├── 📁 data/                            → Datos utilizados en el sistema
+│   └──  📈 stock-invoices.xlsx         → Archivo de gestión de inventario
+├── 📁 docs/                            → Documentos PDF o markdown con explicaciones del sistema
+│   └── 📜 transport_plan.pdf           →  Documento del plan de transporte
+├── 📁 projects/                        →  Proyectos adicionales o análisis relacionados
+│   ├── 📁 cost_analysis/
+│       └── 📈 costs_report.xlsx        →  Informe de análisis de costes 
+│   ├── 📁 route_optimization/
+│   │   ├── 📜 notebook.ipynb           →  Análisis de rutas
+│   │   ├── 📈 data.csv
+│   │   └── 🖼️ output_map.png
+│   └── 📁 satisfaction_survey/
+├── 📁 scripts/                         → Scripts de automatización en Google Apps Script (.gs)
 │   ├── 📜 generate_invoice.gs          → Script para generar de forma automática la factura en PDF
 │   ├── 📜 send_invoice_email.gs        → Script para enviar la factura PDF por correo electrónico
 │   ├── 📜 holiday_calendar.gs          → Añadir los festivos de España a la lógica de los archivos
 │   ├── 📜 find_invoice.gs              → Script para localizar la factura en PDF
-├── 📁 assets/
-│   └── .gitkeep                        → Placeholder file
-├── 📜 LICENSE                          → MIT License
-├── 📜 README.md                        → Project documentation
+├── 📜 LICENSE                          → Licencia MIT
+├── 📜 README.md                        → Documentación general del proyecto
 ```
 
 ---
